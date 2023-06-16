@@ -1,0 +1,53 @@
+.movieCard {
+  display: flex;
+  background-color: #fff;
+  /* overflow:scroll; */
+  padding: 20px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.movieInfo {
+  margin-left: 20px;
+}
+
+.backButton {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  border: 0;
+  font: inherit;
+  font-size: 18px;
+  opacity: 0.7;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.backButton:hover {
+  opacity: 1;
+}
+
+
+.links a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover {
+  color: yellow;
+}
+
+.links .active {
+  color: yellow;
+  border-bottom: 1px solid yellow;
+}
+
+.movieIcons {
+  vertical-align: middle;
+  width: 300px;
+  height: 450px;
+}
